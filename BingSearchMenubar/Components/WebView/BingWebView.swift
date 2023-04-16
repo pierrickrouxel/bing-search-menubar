@@ -10,12 +10,14 @@ import SwiftUI
 struct BingFeature {
     let rawValue: String
     
-    static let chat = BingFeature(rawValue: "https://edgeservices.bing.com/edgesvc/chat?clientscopes=chat,noheader")
+    static let chat = BingFeature(rawValue: "https://edgeservices.bing.com/edgesvc/chat")
     
-    static let compose = BingFeature(rawValue: "https://edgeservices.bing.com/edgesvc/compose?clientscopes=chat,coauthor,noheader")
+    static let compose = BingFeature(rawValue: "https://edgeservices.bing.com/edgesvc/compose")
 }
 
 struct BingWebView: View {
+    @Environment(\.colorScheme) var colorScheme
+    
     let feature: BingFeature
     
     init(_ feature: BingFeature = .chat) {
@@ -38,9 +40,17 @@ struct BingWebView: View {
     }
     
     private func generateAuthCheckUrl(_ url: String) -> URL {
-        let ruParam = generateAuthCheckRuParam(url).addingPercentEncoding(withAllowedCharacters: .alphanumerics)!
+        let parameterizedUrl = generateEdgeServicesParameters(url);
+        
+        let ruParam = generateAuthCheckRuParam(parameterizedUrl).addingPercentEncoding(withAllowedCharacters: .alphanumerics)!
         
         return URL(string: "https://www.bing.com/rewards/authcheck?ru=\(ruParam)")!
+    }
+    
+    private func generateEdgeServicesParameters(_ url: String) -> String {
+        return url +
+        "?clientscopes=chat,coauthor,noheader" +
+        "&darkschemeovr=\(colorScheme == .dark ? "1" : "0")"
     }
     
     private func generateAuthCheckRuParam(_ url: String) -> String {
@@ -61,5 +71,8 @@ struct BingWebView: View {
 struct BingWebView_Previews: PreviewProvider {
     static var previews: some View {
         BingWebView()
+        BingWebView()
+            .environment(\.colorScheme, .dark)
+            .previewDisplayName("Dark Mode")
     }
 }
