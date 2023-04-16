@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4218DD429EA908900235653 /* BingWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4218DD329EA908900235653 /* BingWebView.swift */; };
+		A4218DE329EAE15900235653 /* KeyboardShortcuts in Frameworks */ = {isa = PBXBuildFile; productRef = A4218DE229EAE15900235653 /* KeyboardShortcuts */; };
+		A4218DE629EAE41300235653 /* MenuBarExtraAccess in Frameworks */ = {isa = PBXBuildFile; productRef = A4218DE529EAE41300235653 /* MenuBarExtraAccess */; };
+		A4218DEA29EAE7C400235653 /* ConfigMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4218DE929EAE7C400235653 /* ConfigMenuView.swift */; };
+		A47386F429EC1F41008F7CF2 /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47386F329EC1F41008F7CF2 /* TabBarItem.swift */; };
+		A47386F629EC1F9A008F7CF2 /* TabBarItemsPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47386F529EC1F9A008F7CF2 /* TabBarItemsPreferenceKey.swift */; };
+		A47386F829EC2016008F7CF2 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47386F729EC2016008F7CF2 /* TabBarView.swift */; };
+		A47386FA29EC2061008F7CF2 /* TabBarNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47386F929EC2061008F7CF2 /* TabBarNavigationView.swift */; };
+		A47386FC29EC2087008F7CF2 /* TabbedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47386FB29EC2087008F7CF2 /* TabbedView.swift */; };
+		A47386FE29EC33CA008F7CF2 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A47386FD29EC33CA008F7CF2 /* .gitignore */; };
+		A48CBCF829E7EF88008DB1A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A48CBCF129E7EF88008DB1A9 /* Assets.xcassets */; };
+		A48CBCF929E7EF88008DB1A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A48CBCF329E7EF88008DB1A9 /* Preview Assets.xcassets */; };
+		A48CBCFA29E7EF88008DB1A9 /* BingSearchMenubarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48CBCF429E7EF88008DB1A9 /* BingSearchMenubarApp.swift */; };
+		A48CBCFB29E7EF88008DB1A9 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48CBCF529E7EF88008DB1A9 /* WebView.swift */; };
+		A48CBCFC29E7EF88008DB1A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48CBCF629E7EF88008DB1A9 /* ContentView.swift */; };
+		A4FE368929E6FD4900DEEB2F /* BingSearchMenubarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FE368829E6FD4900DEEB2F /* BingSearchMenubarTests.swift */; };
+		A4FE369329E6FD4900DEEB2F /* BingSearchMenubarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FE369229E6FD4900DEEB2F /* BingSearchMenubarUITests.swift */; };
+		A4FE369529E6FD4900DEEB2F /* BingSearchMenubarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FE369429E6FD4900DEEB2F /* BingSearchMenubarUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4FE368529E6FD4900DEEB2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4FE366B29E6FD4800DEEB2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4FE367229E6FD4800DEEB2F;
+			remoteInfo = BingSearch;
+		};
+		A4FE368F29E6FD4900DEEB2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4FE366B29E6FD4800DEEB2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4FE367229E6FD4800DEEB2F;
+			remoteInfo = BingSearch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4218DD329EA908900235653 /* BingWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingWebView.swift; sourceTree = "<group>"; };
+		A4218DE929EAE7C400235653 /* ConfigMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigMenuView.swift; sourceTree = "<group>"; };
+		A4218DEB29EAED3900235653 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		A4218DEC29EAED5400235653 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A47386F329EC1F41008F7CF2 /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
+		A47386F529EC1F9A008F7CF2 /* TabBarItemsPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemsPreferenceKey.swift; sourceTree = "<group>"; };
+		A47386F729EC2016008F7CF2 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		A47386F929EC2061008F7CF2 /* TabBarNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarNavigationView.swift; sourceTree = "<group>"; };
+		A47386FB29EC2087008F7CF2 /* TabbedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbedView.swift; sourceTree = "<group>"; };
+		A47386FD29EC33CA008F7CF2 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		A48CBCF129E7EF88008DB1A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A48CBCF329E7EF88008DB1A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A48CBCF429E7EF88008DB1A9 /* BingSearchMenubarApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BingSearchMenubarApp.swift; sourceTree = "<group>"; };
+		A48CBCF529E7EF88008DB1A9 /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		A48CBCF629E7EF88008DB1A9 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A48CBCF729E7EF88008DB1A9 /* BingSearchMenubar.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = BingSearchMenubar.entitlements; sourceTree = "<group>"; };
+		A4E2190E29EAF19200BF8D7F /* compose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compose.png; sourceTree = "<group>"; };
+		A4E2190F29EAF19200BF8D7F /* chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat.png; sourceTree = "<group>"; };
+		A4FE367329E6FD4800DEEB2F /* Bing Search Menubar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bing Search Menubar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4FE368429E6FD4900DEEB2F /* BingSearchMenubarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BingSearchMenubarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4FE368829E6FD4900DEEB2F /* BingSearchMenubarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingSearchMenubarTests.swift; sourceTree = "<group>"; };
+		A4FE368E29E6FD4900DEEB2F /* BingSearchMenubarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BingSearchMenubarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4FE369229E6FD4900DEEB2F /* BingSearchMenubarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingSearchMenubarUITests.swift; sourceTree = "<group>"; };
+		A4FE369429E6FD4900DEEB2F /* BingSearchMenubarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingSearchMenubarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4FE367029E6FD4800DEEB2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4218DE629EAE41300235653 /* MenuBarExtraAccess in Frameworks */,
+				A4218DE329EAE15900235653 /* KeyboardShortcuts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4FE368129E6FD4900DEEB2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4FE368B29E6FD4900DEEB2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4218DD529EA961200235653 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A47386F229EC1F2F008F7CF2 /* TabBar */,
+				A4218DE729EAE73000235653 /* WebView */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A4218DE729EAE73000235653 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				A4218DD329EA908900235653 /* BingWebView.swift */,
+				A48CBCF529E7EF88008DB1A9 /* WebView.swift */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		A47386F229EC1F2F008F7CF2 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				A47386F329EC1F41008F7CF2 /* TabBarItem.swift */,
+				A47386F529EC1F9A008F7CF2 /* TabBarItemsPreferenceKey.swift */,
+				A47386F729EC2016008F7CF2 /* TabBarView.swift */,
+				A47386F929EC2061008F7CF2 /* TabBarNavigationView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		A48CBCF029E7EF88008DB1A9 /* BingSearchMenubar */ = {
+			isa = PBXGroup;
+			children = (
+				A48CBCF129E7EF88008DB1A9 /* Assets.xcassets */,
+				A48CBCF229E7EF88008DB1A9 /* Preview Content */,
+				A48CBCF429E7EF88008DB1A9 /* BingSearchMenubarApp.swift */,
+				A4218DE929EAE7C400235653 /* ConfigMenuView.swift */,
+				A48CBCF629E7EF88008DB1A9 /* ContentView.swift */,
+				A47386FB29EC2087008F7CF2 /* TabbedView.swift */,
+				A4218DD529EA961200235653 /* Components */,
+				A48CBCF729E7EF88008DB1A9 /* BingSearchMenubar.entitlements */,
+			);
+			path = BingSearchMenubar;
+			sourceTree = "<group>";
+		};
+		A48CBCF229E7EF88008DB1A9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A48CBCF329E7EF88008DB1A9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A4FE366A29E6FD4800DEEB2F = {
+			isa = PBXGroup;
+			children = (
+				A47386FD29EC33CA008F7CF2 /* .gitignore */,
+				A4E2190F29EAF19200BF8D7F /* chat.png */,
+				A4E2190E29EAF19200BF8D7F /* compose.png */,
+				A4218DEC29EAED5400235653 /* README.md */,
+				A4218DEB29EAED3900235653 /* LICENSE.md */,
+				A48CBCF029E7EF88008DB1A9 /* BingSearchMenubar */,
+				A4FE368729E6FD4900DEEB2F /* BingSearchMenubarTests */,
+				A4FE369129E6FD4900DEEB2F /* BingSearchMenubarUITests */,
+				A4FE367429E6FD4800DEEB2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4FE367429E6FD4800DEEB2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4FE367329E6FD4800DEEB2F /* Bing Search Menubar.app */,
+				A4FE368429E6FD4900DEEB2F /* BingSearchMenubarTests.xctest */,
+				A4FE368E29E6FD4900DEEB2F /* BingSearchMenubarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4FE368729E6FD4900DEEB2F /* BingSearchMenubarTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4FE368829E6FD4900DEEB2F /* BingSearchMenubarTests.swift */,
+			);
+			path = BingSearchMenubarTests;
+			sourceTree = "<group>";
+		};
+		A4FE369129E6FD4900DEEB2F /* BingSearchMenubarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4FE369229E6FD4900DEEB2F /* BingSearchMenubarUITests.swift */,
+				A4FE369429E6FD4900DEEB2F /* BingSearchMenubarUITestsLaunchTests.swift */,
+			);
+			path = BingSearchMenubarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4FE367229E6FD4800DEEB2F /* BingSearchMenubar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4FE369829E6FD4900DEEB2F /* Build configuration list for PBXNativeTarget "BingSearchMenubar" */;
+			buildPhases = (
+				A4FE366F29E6FD4800DEEB2F /* Sources */,
+				A4FE367029E6FD4800DEEB2F /* Frameworks */,
+				A4FE367129E6FD4800DEEB2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BingSearchMenubar;
+			packageProductDependencies = (
+				A4218DE229EAE15900235653 /* KeyboardShortcuts */,
+				A4218DE529EAE41300235653 /* MenuBarExtraAccess */,
+			);
+			productName = BingSearch;
+			productReference = A4FE367329E6FD4800DEEB2F /* Bing Search Menubar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4FE368329E6FD4900DEEB2F /* BingSearchMenubarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4FE369B29E6FD4900DEEB2F /* Build configuration list for PBXNativeTarget "BingSearchMenubarTests" */;
+			buildPhases = (
+				A4FE368029E6FD4900DEEB2F /* Sources */,
+				A4FE368129E6FD4900DEEB2F /* Frameworks */,
+				A4FE368229E6FD4900DEEB2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4FE368629E6FD4900DEEB2F /* PBXTargetDependency */,
+			);
+			name = BingSearchMenubarTests;
+			productName = BingSearchTests;
+			productReference = A4FE368429E6FD4900DEEB2F /* BingSearchMenubarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4FE368D29E6FD4900DEEB2F /* BingSearchMenubarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4FE369E29E6FD4900DEEB2F /* Build configuration list for PBXNativeTarget "BingSearchMenubarUITests" */;
+			buildPhases = (
+				A4FE368A29E6FD4900DEEB2F /* Sources */,
+				A4FE368B29E6FD4900DEEB2F /* Frameworks */,
+				A4FE368C29E6FD4900DEEB2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4FE369029E6FD4900DEEB2F /* PBXTargetDependency */,
+			);
+			name = BingSearchMenubarUITests;
+			productName = BingSearchUITests;
+			productReference = A4FE368E29E6FD4900DEEB2F /* BingSearchMenubarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4FE366B29E6FD4800DEEB2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A4FE367229E6FD4800DEEB2F = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					A4FE368329E6FD4900DEEB2F = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = A4FE367229E6FD4800DEEB2F;
+					};
+					A4FE368D29E6FD4900DEEB2F = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = A4FE367229E6FD4800DEEB2F;
+					};
+				};
+			};
+			buildConfigurationList = A4FE366E29E6FD4800DEEB2F /* Build configuration list for PBXProject "BingSearchMenubar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4FE366A29E6FD4800DEEB2F;
+			packageReferences = (
+				A4218DE129EAE15900235653 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */,
+				A4218DE429EAE41300235653 /* XCRemoteSwiftPackageReference "MenuBarExtraAccess" */,
+			);
+			productRefGroup = A4FE367429E6FD4800DEEB2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4FE367229E6FD4800DEEB2F /* BingSearchMenubar */,
+				A4FE368329E6FD4900DEEB2F /* BingSearchMenubarTests */,
+				A4FE368D29E6FD4900DEEB2F /* BingSearchMenubarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4FE367129E6FD4800DEEB2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A48CBCF929E7EF88008DB1A9 /* Preview Assets.xcassets in Resources */,
+				A47386FE29EC33CA008F7CF2 /* .gitignore in Resources */,
+				A48CBCF829E7EF88008DB1A9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4FE368229E6FD4900DEEB2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4FE368C29E6FD4900DEEB2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4FE366F29E6FD4800DEEB2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A47386FA29EC2061008F7CF2 /* TabBarNavigationView.swift in Sources */,
+				A47386F429EC1F41008F7CF2 /* TabBarItem.swift in Sources */,
+				A48CBCFA29E7EF88008DB1A9 /* BingSearchMenubarApp.swift in Sources */,
+				A47386F829EC2016008F7CF2 /* TabBarView.swift in Sources */,
+				A4218DD429EA908900235653 /* BingWebView.swift in Sources */,
+				A4218DEA29EAE7C400235653 /* ConfigMenuView.swift in Sources */,
+				A48CBCFB29E7EF88008DB1A9 /* WebView.swift in Sources */,
+				A48CBCFC29E7EF88008DB1A9 /* ContentView.swift in Sources */,
+				A47386FC29EC2087008F7CF2 /* TabbedView.swift in Sources */,
+				A47386F629EC1F9A008F7CF2 /* TabBarItemsPreferenceKey.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4FE368029E6FD4900DEEB2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4FE368929E6FD4900DEEB2F /* BingSearchMenubarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4FE368A29E6FD4900DEEB2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4FE369529E6FD4900DEEB2F /* BingSearchMenubarUITestsLaunchTests.swift in Sources */,
+				A4FE369329E6FD4900DEEB2F /* BingSearchMenubarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4FE368629E6FD4900DEEB2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4FE367229E6FD4800DEEB2F /* BingSearchMenubar */;
+			targetProxy = A4FE368529E6FD4900DEEB2F /* PBXContainerItemProxy */;
+		};
+		A4FE369029E6FD4900DEEB2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4FE367229E6FD4800DEEB2F /* BingSearchMenubar */;
+			targetProxy = A4FE368F29E6FD4900DEEB2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A4FE369629E6FD4900DEEB2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4FE369729E6FD4900DEEB2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A4FE369929E6FD4900DEEB2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BingSearchMenubar/BingSearchMenubar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BingSearchMenubar/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Bing Search Menubar";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.pierrickrouxel.BingSearchMenubar;
+				PRODUCT_NAME = "Bing Search Menubar";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A4FE369A29E6FD4900DEEB2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BingSearchMenubar/BingSearchMenubar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BingSearchMenubar/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Bing Search Menubar";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.pierrickrouxel.BingSearchMenubar;
+				PRODUCT_NAME = "Bing Search Menubar";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A4FE369C29E6FD4900DEEB2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.pierrickrouxel.BingSearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BingSearchMenubar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BingSearchMenubar";
+			};
+			name = Debug;
+		};
+		A4FE369D29E6FD4900DEEB2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.pierrickrouxel.BingSearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BingSearchMenubar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BingSearchMenubar";
+			};
+			name = Release;
+		};
+		A4FE369F29E6FD4900DEEB2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.pierrickrouxel.BingSearchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = BingSearchMenubar;
+			};
+			name = Debug;
+		};
+		A4FE36A029E6FD4900DEEB2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.pierrickrouxel.BingSearchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = BingSearchMenubar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4FE366E29E6FD4800DEEB2F /* Build configuration list for PBXProject "BingSearchMenubar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4FE369629E6FD4900DEEB2F /* Debug */,
+				A4FE369729E6FD4900DEEB2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4FE369829E6FD4900DEEB2F /* Build configuration list for PBXNativeTarget "BingSearchMenubar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4FE369929E6FD4900DEEB2F /* Debug */,
+				A4FE369A29E6FD4900DEEB2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4FE369B29E6FD4900DEEB2F /* Build configuration list for PBXNativeTarget "BingSearchMenubarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4FE369C29E6FD4900DEEB2F /* Debug */,
+				A4FE369D29E6FD4900DEEB2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4FE369E29E6FD4900DEEB2F /* Build configuration list for PBXNativeTarget "BingSearchMenubarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4FE369F29E6FD4900DEEB2F /* Debug */,
+				A4FE36A029E6FD4900DEEB2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A4218DE129EAE15900235653 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/KeyboardShortcuts";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		A4218DE429EAE41300235653 /* XCRemoteSwiftPackageReference "MenuBarExtraAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/orchetect/MenuBarExtraAccess";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A4218DE229EAE15900235653 /* KeyboardShortcuts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A4218DE129EAE15900235653 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */;
+			productName = KeyboardShortcuts;
+		};
+		A4218DE529EAE41300235653 /* MenuBarExtraAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A4218DE429EAE41300235653 /* XCRemoteSwiftPackageReference "MenuBarExtraAccess" */;
+			productName = MenuBarExtraAccess;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A4FE366B29E6FD4800DEEB2F /* Project object */;
+}
