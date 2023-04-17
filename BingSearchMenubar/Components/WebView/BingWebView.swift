@@ -49,8 +49,7 @@ struct BingWebView: View {
     
     private func generateEdgeServicesParameters(_ url: String) -> String {
         return url +
-        "?clientscopes=chat,coauthor,noheader" +
-        "&darkschemeovr=\(colorScheme == .dark ? "1" : "0")"
+        "?clientscopes=chat,coauthor,noheader\(colorScheme == .dark ? "&darkschemeovr=1" : "")"
     }
     
     private func generateAuthCheckRuParam(_ url: String) -> String {
